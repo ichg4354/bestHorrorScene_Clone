@@ -8,7 +8,7 @@ const paths = {
   },
 };
 
-export function styles() {
+export function style() {
   return gulp
     .src(paths.styles.src)
     .pipe(sass())
